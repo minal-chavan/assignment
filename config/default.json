@@ -1,0 +1,44 @@
+{
+    "env": "local",
+    "server": {
+      "routes": {
+        "cors": true,
+        "timeout": {
+          "server": 1200000,
+          "socket": 1300000
+        }
+      },
+      "port": 7070,
+     "host": "0.0.0.0:7070"
+  
+    },
+    "database": {
+      "mongo": {
+        "name": "Assignment",
+        "host": "0.0.0.0",
+        "port": 27017,
+        "username": "",
+        "password": ""
+      }
+    },
+    "replicaConfig": {
+      "clusterHosts": "192.168.0.112:27017,192.168.0.79:27017",
+      "replicaSetName": "rs-nad&readPreference=secondaryPreferred"
+    },
+    "publicFolder": "./public",
+    "uploadFolder": "/uploads",
+    "imageFolder": "/images",
+    "MixFolder": "./public/uploads/images",
+    "MixInsideFolder": "./public/uploads/images/",
+    "logging": {
+      "name": "tutorial",
+      "level": "debug",
+      "path": "log.txt"
+    },
+    "swagger_base_path" : "",
+    // "swagger_base_path": "",
+    
+
+    "session_time": 15
+  }
+  

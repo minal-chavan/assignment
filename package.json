@@ -1,0 +1,48 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi18",
+    "nodejs"
+  ],
+  "author": "minal.chavan",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "@hapi/inert": "^5.2.2",
+    "@hapi/joi": "^15.1.1",
+    "@hapi/vision": "^5.5.4",
+    "app-module-path": "^2.2.0",
+    "async": "^3.2.0",
+    "config": "^3.3.1",
+    "fs": "0.0.1-security",
+    "hapi-auth-cookie": "^10.0.0",
+    "hapi-auth-jwt2": "^10.1.0",
+    "hapi-cron": "^1.1.0",
+    "hapi-swagger": "^10.1.2",
+    "ioredis": "^4.14.1",
+    "mongoose": "^5.6.7",
+    "node-cron": "^2.0.3",
+    "npm": "^6.14.4",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "jasmine": "^3.5.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "jshint": "^2.10.2",
+    "nyc": "^14.1.1"
+  }
+}
