@@ -1,3 +1,3 @@
 Install all node_modules with "npm i"
-Run project with "node index"
+Run project with "node index.js"
 check the swagger with url "http://localhost:7070/documentation"
